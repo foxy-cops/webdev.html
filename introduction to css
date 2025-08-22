@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> introduction to css</title>
+        <style>
+            h2{
+         color: green;
+         background-color: black;
+         font-size: 50px;
+
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1> inline css</h1>
+        <h1 style="color: brown;font-size: 50px;text-align: center;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"> intoduction to css</h1>
+        <p style="color: red;background-color: aqua;text-transform: uppercase;">this is paragraph example of inline class</p>
+    </body>
+
+</html>
