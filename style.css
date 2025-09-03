@@ -1,62 +1,20 @@
-input[type="text"]{
+.example{
     background-color: red;
     color: white;
+    padding: 10px;
+    margin: 10px;
     border: 5px solid black;
-
 }
-input[type="password"]{
+.example2{
     background-color: blue;
-    color: whitesmoke;
-    border: 5px solid black;
-    border-radius: 10px;
-}
-ul > li{
-    color: red;
-}
-ul > :nth-child(3){
-    color: blue;
-}
-a:hover{
-    color: red;
-    background-color: blue;
-
-}
-h1 +p{
     color: white;
-    background-color: blue;
-}
-.decorate::before{
-    content: "hello world";
-    color: white;
-    background-color: blue;
-    font-size: 20px;
-}
-p::first-letter{
-    color: red;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: italic;
-    background-color: yellow;
-}
-.container{
-    background-color: yellow;
-    color: red;
-    font-size: 20px;
-    width: 200px;
-    height: 200px;
+     padding: 10px;
+    margin: 50px;
     border: 5px solid black;
 }
-div:not(.container){
-    background-color: blue;
-    color: red;
-    font-size: 20px;
-    width: 200px;
-    height: 200px;
-    border: 5px solid black;
-    position: relative;
-    top: 20px;
-    left: 20px;
-    margin: 20px;
-    color: white;
-    padding: 20px;
+img#floatleft{
+    float: left;
+}
+img#floatright{
+    float: right;
 }
