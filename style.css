@@ -1,20 +1,41 @@
-.example{
-    background-color: red;
-    color: white;
-    padding: 10px;
-    margin: 10px;
+.static{
+    position: static;
+    background-color: yellow;
+    left: 30px;
+    top: 30;
+    color: red;
     border: 5px solid black;
 }
-.example2{
-    background-color: blue;
-    color: white;
-     padding: 10px;
-    margin: 50px;
-    border: 5px solid black;
+.relative{
+    position:relative;
+    background-color: aqua;
+    left: 50px;
+    top: 50px;
+    color: red;
+    border:5px solid black
 }
-img#floatleft{
-    float: left;
+.fixed{
+    position:fixed;
+    background-color: aqua;
+    left: 50px;
+    top: 50px;
+    color: red;
+    border:5px solid black
 }
-img#floatright{
-    float: right;
+.absolute{
+      position:absolute;
+    background-color: aqua;
+    left: 600px;
+    top: 50px;
+    color: red;
+    border:5px solid black
 }
+.sticky{
+      position:sticky;
+    background-color: aqua;
+    left: 600px;
+    top: 50px;
+    color: red;
+    border:5px solid black
+}
+
